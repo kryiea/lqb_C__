@@ -1,0 +1,7 @@
+"C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\86195\Desktop\Lqb_C++ -B C:\Users\86195\Desktop\Lqb_C++\cmake-build-debug
+    -- src/P1271.cpp will be compiled to bin/P1271
+    -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
+    -- src/main.cpp will be compiled to bin/main
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/86195/Desktop/Lqb_C++/cmake-build-debug
