@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 1059
+
+# Build rule for target.
+1059: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1059
+.PHONY : 1059
+
+# fast build rule for target.
+1059/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1059.dir\build.make CMakeFiles/1059.dir/build
+.PHONY : 1059/fast
+
+#=============================================================================
 # Target rules for targets named P1177
 
 # Build rule for target.
@@ -166,6 +179,30 @@ main: cmake_check_build_system
 main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
+
+1059.obj: 1059.cpp.obj
+.PHONY : 1059.obj
+
+# target to build an object file
+1059.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1059.dir\build.make CMakeFiles/1059.dir/1059.cpp.obj
+.PHONY : 1059.cpp.obj
+
+1059.i: 1059.cpp.i
+.PHONY : 1059.i
+
+# target to preprocess a source file
+1059.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1059.dir\build.make CMakeFiles/1059.dir/1059.cpp.i
+.PHONY : 1059.cpp.i
+
+1059.s: 1059.cpp.s
+.PHONY : 1059.s
+
+# target to generate assembly for a file
+1059.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1059.dir\build.make CMakeFiles/1059.dir/1059.cpp.s
+.PHONY : 1059.cpp.s
 
 CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.obj: CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
 .PHONY : CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.obj
@@ -271,10 +308,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 1059
 	@echo ... CMakeCXXCompilerId
 	@echo ... P1177
 	@echo ... P1271
 	@echo ... main
+	@echo ... 1059.obj
+	@echo ... 1059.i
+	@echo ... 1059.s
 	@echo ... CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.obj
 	@echo ... CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.i
 	@echo ... CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.s
