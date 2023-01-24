@@ -12,7 +12,7 @@ int main() {
     cin >> A >> B;
 
     int len = max(A.length(),B.length());
-    
+
     //存进数组
     for(int i = A.length()-1, j = 1; i>=0; i--,j++){
         a[j] = A[i] - '0';
@@ -21,7 +21,7 @@ int main() {
         b[j] = B[i] - '0';
     }
 
-    //加法运算
+    //运算
     for (int i = 1; i <= len; ++i) {
         c[i] += a[i] + b[i];
         c[i+1] = c[i] / 10;//模拟进位。有则下一位加1

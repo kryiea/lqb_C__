@@ -129,6 +129,32 @@ depend:
 .PHONY : 1059/fast
 
 #=============================================================================
+# Target rules for targets named 1093
+
+# Build rule for target.
+1093: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1093
+.PHONY : 1093
+
+# fast build rule for target.
+1093/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1093.dir\build.make CMakeFiles/1093.dir/build
+.PHONY : 1093/fast
+
+#=============================================================================
+# Target rules for targets named 1255
+
+# Build rule for target.
+1255: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1255
+.PHONY : 1255
+
+# fast build rule for target.
+1255/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1255.dir\build.make CMakeFiles/1255.dir/build
+.PHONY : 1255/fast
+
+#=============================================================================
 # Target rules for targets named P1177
 
 # Build rule for target.
@@ -203,6 +229,54 @@ main/fast:
 1059.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1059.dir\build.make CMakeFiles/1059.dir/1059.cpp.s
 .PHONY : 1059.cpp.s
+
+1093.obj: 1093.cpp.obj
+.PHONY : 1093.obj
+
+# target to build an object file
+1093.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1093.dir\build.make CMakeFiles/1093.dir/1093.cpp.obj
+.PHONY : 1093.cpp.obj
+
+1093.i: 1093.cpp.i
+.PHONY : 1093.i
+
+# target to preprocess a source file
+1093.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1093.dir\build.make CMakeFiles/1093.dir/1093.cpp.i
+.PHONY : 1093.cpp.i
+
+1093.s: 1093.cpp.s
+.PHONY : 1093.s
+
+# target to generate assembly for a file
+1093.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1093.dir\build.make CMakeFiles/1093.dir/1093.cpp.s
+.PHONY : 1093.cpp.s
+
+1255.obj: 1255.cpp.obj
+.PHONY : 1255.obj
+
+# target to build an object file
+1255.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1255.dir\build.make CMakeFiles/1255.dir/1255.cpp.obj
+.PHONY : 1255.cpp.obj
+
+1255.i: 1255.cpp.i
+.PHONY : 1255.i
+
+# target to preprocess a source file
+1255.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1255.dir\build.make CMakeFiles/1255.dir/1255.cpp.i
+.PHONY : 1255.cpp.i
+
+1255.s: 1255.cpp.s
+.PHONY : 1255.s
+
+# target to generate assembly for a file
+1255.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1255.dir\build.make CMakeFiles/1255.dir/1255.cpp.s
+.PHONY : 1255.cpp.s
 
 CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.obj: CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
 .PHONY : CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.obj
@@ -309,6 +383,8 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 1059
+	@echo ... 1093
+	@echo ... 1255
 	@echo ... CMakeCXXCompilerId
 	@echo ... P1177
 	@echo ... P1271
@@ -316,6 +392,12 @@ help:
 	@echo ... 1059.obj
 	@echo ... 1059.i
 	@echo ... 1059.s
+	@echo ... 1093.obj
+	@echo ... 1093.i
+	@echo ... 1093.s
+	@echo ... 1255.obj
+	@echo ... 1255.i
+	@echo ... 1255.s
 	@echo ... CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.obj
 	@echo ... CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.i
 	@echo ... CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.s
