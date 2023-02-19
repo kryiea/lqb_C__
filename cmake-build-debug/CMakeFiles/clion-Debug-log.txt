@@ -3,7 +3,9 @@
     -- src/1093.cpp will be compiled to bin/1093
     -- src/1255.cpp will be compiled to bin/1255
     -- src/P1177.cpp will be compiled to bin/P1177
+    -- src/P1223.cpp will be compiled to bin/P1223
     -- src/P1271.cpp will be compiled to bin/P1271
+    -- src/P2240.cpp will be compiled to bin/P2240
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
 -- Configuring done
