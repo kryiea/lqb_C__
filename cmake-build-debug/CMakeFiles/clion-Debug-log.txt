@@ -2,6 +2,9 @@
     -- src/1059.cpp will be compiled to bin/1059
     -- src/1093.cpp will be compiled to bin/1093
     -- src/1255.cpp will be compiled to bin/1255
+    -- src/9_10.cpp will be compiled to bin/9_10
+    -- src/p1143.cpp will be compiled to bin/p1143
+    -- src/p3383.cpp will be compiled to bin/p3383
     -- src/P1177.cpp will be compiled to bin/P1177
     -- src/P1223.cpp will be compiled to bin/P1223
     -- src/P1271.cpp will be compiled to bin/P1271

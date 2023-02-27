@@ -155,6 +155,45 @@ depend:
 .PHONY : 1255/fast
 
 #=============================================================================
+# Target rules for targets named 9_10
+
+# Build rule for target.
+9_10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 9_10
+.PHONY : 9_10
+
+# fast build rule for target.
+9_10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9_10.dir\build.make CMakeFiles/9_10.dir/build
+.PHONY : 9_10/fast
+
+#=============================================================================
+# Target rules for targets named p1143
+
+# Build rule for target.
+p1143: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 p1143
+.PHONY : p1143
+
+# fast build rule for target.
+p1143/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p1143.dir\build.make CMakeFiles/p1143.dir/build
+.PHONY : p1143/fast
+
+#=============================================================================
+# Target rules for targets named p3383
+
+# Build rule for target.
+p3383: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 p3383
+.PHONY : p3383
+
+# fast build rule for target.
+p3383/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3383.dir\build.make CMakeFiles/p3383.dir/build
+.PHONY : p3383/fast
+
+#=============================================================================
 # Target rules for targets named P1177
 
 # Build rule for target.
@@ -304,6 +343,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1255.dir\build.make CMakeFiles/1255.dir/1255.cpp.s
 .PHONY : 1255.cpp.s
 
+9_10.obj: 9_10.cpp.obj
+.PHONY : 9_10.obj
+
+# target to build an object file
+9_10.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9_10.dir\build.make CMakeFiles/9_10.dir/9_10.cpp.obj
+.PHONY : 9_10.cpp.obj
+
+9_10.i: 9_10.cpp.i
+.PHONY : 9_10.i
+
+# target to preprocess a source file
+9_10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9_10.dir\build.make CMakeFiles/9_10.dir/9_10.cpp.i
+.PHONY : 9_10.cpp.i
+
+9_10.s: 9_10.cpp.s
+.PHONY : 9_10.s
+
+# target to generate assembly for a file
+9_10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9_10.dir\build.make CMakeFiles/9_10.dir/9_10.cpp.s
+.PHONY : 9_10.cpp.s
+
 CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.obj: CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
 .PHONY : CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.obj
 
@@ -327,6 +390,54 @@ CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.s: CMakeFiles/3.24.2/Compiler
 CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 .PHONY : CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+
+Number_theory_and_base/p1143.obj: Number_theory_and_base/p1143.cpp.obj
+.PHONY : Number_theory_and_base/p1143.obj
+
+# target to build an object file
+Number_theory_and_base/p1143.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p1143.dir\build.make CMakeFiles/p1143.dir/Number_theory_and_base/p1143.cpp.obj
+.PHONY : Number_theory_and_base/p1143.cpp.obj
+
+Number_theory_and_base/p1143.i: Number_theory_and_base/p1143.cpp.i
+.PHONY : Number_theory_and_base/p1143.i
+
+# target to preprocess a source file
+Number_theory_and_base/p1143.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p1143.dir\build.make CMakeFiles/p1143.dir/Number_theory_and_base/p1143.cpp.i
+.PHONY : Number_theory_and_base/p1143.cpp.i
+
+Number_theory_and_base/p1143.s: Number_theory_and_base/p1143.cpp.s
+.PHONY : Number_theory_and_base/p1143.s
+
+# target to generate assembly for a file
+Number_theory_and_base/p1143.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p1143.dir\build.make CMakeFiles/p1143.dir/Number_theory_and_base/p1143.cpp.s
+.PHONY : Number_theory_and_base/p1143.cpp.s
+
+Number_theory_and_base/p3383.obj: Number_theory_and_base/p3383.cpp.obj
+.PHONY : Number_theory_and_base/p3383.obj
+
+# target to build an object file
+Number_theory_and_base/p3383.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3383.dir\build.make CMakeFiles/p3383.dir/Number_theory_and_base/p3383.cpp.obj
+.PHONY : Number_theory_and_base/p3383.cpp.obj
+
+Number_theory_and_base/p3383.i: Number_theory_and_base/p3383.cpp.i
+.PHONY : Number_theory_and_base/p3383.i
+
+# target to preprocess a source file
+Number_theory_and_base/p3383.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3383.dir\build.make CMakeFiles/p3383.dir/Number_theory_and_base/p3383.cpp.i
+.PHONY : Number_theory_and_base/p3383.cpp.i
+
+Number_theory_and_base/p3383.s: Number_theory_and_base/p3383.cpp.s
+.PHONY : Number_theory_and_base/p3383.s
+
+# target to generate assembly for a file
+Number_theory_and_base/p3383.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\p3383.dir\build.make CMakeFiles/p3383.dir/Number_theory_and_base/p3383.cpp.s
+.PHONY : Number_theory_and_base/p3383.cpp.s
 
 P1177.obj: P1177.cpp.obj
 .PHONY : P1177.obj
@@ -459,12 +570,15 @@ help:
 	@echo ... 1059
 	@echo ... 1093
 	@echo ... 1255
+	@echo ... 9_10
 	@echo ... CMakeCXXCompilerId
 	@echo ... P1177
 	@echo ... P1223
 	@echo ... P1271
 	@echo ... P2240
 	@echo ... main
+	@echo ... p1143
+	@echo ... p3383
 	@echo ... 1059.obj
 	@echo ... 1059.i
 	@echo ... 1059.s
@@ -474,9 +588,18 @@ help:
 	@echo ... 1255.obj
 	@echo ... 1255.i
 	@echo ... 1255.s
+	@echo ... 9_10.obj
+	@echo ... 9_10.i
+	@echo ... 9_10.s
 	@echo ... CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.obj
 	@echo ... CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.i
 	@echo ... CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.s
+	@echo ... Number_theory_and_base/p1143.obj
+	@echo ... Number_theory_and_base/p1143.i
+	@echo ... Number_theory_and_base/p1143.s
+	@echo ... Number_theory_and_base/p3383.obj
+	@echo ... Number_theory_and_base/p3383.i
+	@echo ... Number_theory_and_base/p3383.s
 	@echo ... P1177.obj
 	@echo ... P1177.i
 	@echo ... P1177.s
